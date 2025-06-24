@@ -6,3 +6,8 @@ node_modules/
 # Ignore package-lock.json if you don't want to track it
 package-lock.json
 **/package-lock.json
+# Ignore large dataset file
+ml/data/raw/sar_dataset.csv
+
+# Ignore virtual environment and large DLLs
+ml/venv/
