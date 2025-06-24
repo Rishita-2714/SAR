@@ -57,9 +57,9 @@ const SearchArea = ({ loader, areaData, getSearchArea }) => {
 
   return (
     <div className='search-area-main'>
-      <div className='top'>
+      {/* <div className='top'>
         <AreaTypeSelector />
-      </div>
+      </div> */}
       <div className='middle'>
         <SearchMap center={predicted} marker={predicted} key={areaData?.geojson?.features[0]?.id} />
       </div>
