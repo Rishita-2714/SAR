@@ -7,7 +7,6 @@ node_modules/
 package-lock.json
 **/package-lock.json
 # Ignore large dataset file
-ml/data/raw/sar_dataset.csv
-
-# Ignore virtual environment and large DLLs
+ml/data/raw/
+ml/data/processed/
 ml/venv/
